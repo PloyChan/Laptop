@@ -6,8 +6,8 @@ public class Main {
 
         Asus lt2 = new Asus("HDD","DRAM","Intel");
         Lenovo lt3 = new Lenovo("SSD","DRAM","Intel");
-        MSI lt4 = new MSI("SSD","DRAM","Intel");
-        Laptop lt5 = new Asus("HDD","DRAM","Intel");
+        MSI lt4 = new MSI("SSD","SRAM","AMD");
+        Laptop lt5 = new Asus("HDD","SRAM","Intel");
 
         lt2.printHDD();
         lt2.printRAM();
