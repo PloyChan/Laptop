@@ -16,7 +16,7 @@ public class Laptop {
         
     }
     void printHDD() {
-        System.out.println(getClass().getName()+ " HDD: "+ this.hdd);
+        System.out.println(this.getClass().getName()+" HDD: "+ this.hdd);
     }
     void printRAM() {
         System.out.println("RAM: " + this.ram);
